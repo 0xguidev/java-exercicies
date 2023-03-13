@@ -2,8 +2,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class App {
-    public static final double PI = Math.PI;
-
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -11,21 +9,13 @@ public class App {
         System.out.println("Enter radius:");
         double radius = sc.nextDouble();
 
-        double c = circunference(radius);
+        double c = Calculator.circunference(radius);
 
-        double v = volume(radius);
+        double v = Calculator.volume(radius);
 
         System.out.printf("Circunference: %.2f%n", c);
         System.out.printf("Volume: %.2f%n", v);
-        System.out.printf("PI value: %.2f%n", PI);
+        System.out.printf("PI value: %.2f%n", Calculator.PI);
         sc.close();
-    }
-
-    public static double circunference(double radius) {
-        return 2.0 * PI * radius;
-    }
-
-    public static double volume(double radius) {
-        return 4.0 * PI * radius * radius * radius / 3.0;
     }
 }
