@@ -1,8 +1,29 @@
-# Projeto de estudos de Java
+# Negativos
 
-Este é um projeto de estudos de Java que contém exercícios práticos para aprender a linguagem.
+Faça um programa que leia um número inteiro positivo N (máximo = 10) e depois N números inteiros
+e armazene-os em um vetor. Em seguida, mostrar na tela todos os números negativos lidos. 
 
-## Exercícios
+## Exemplo: 
 
-Cada exercício prático está em um branch separado.
+Quantos numeros voce vai digitar? 6
+
+Digite um numero: 8
+
+Digite um numero: -2
+
+Digite um numero: 9
+
+Digite um numero: 10
+
+Digite um numero: -3
+
+Digite um numero: -7
+
+NUMEROS NEGATIVOS:
+
+-2
+
+-3
+
+-7 
 
